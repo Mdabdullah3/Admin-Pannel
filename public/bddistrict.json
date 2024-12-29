@@ -1,0 +1,319 @@
+[
+  {
+    "id": "1 ",
+    "deliveryFee": 100,
+    "district": "Dhaka"
+  },
+  {
+    "id": "2  ",
+    "deliveryFee": 120,
+    "district": "Faridpur"
+  },
+
+  {
+    "id": "3  ",
+    "deliveryFee": 120,
+    "district": "Gazipur"
+  },
+
+  {
+    "id": "4 ",
+    "deliveryFee": 120,
+    "district": "Gopalganj"
+  },
+  {
+    "id": "5 ",
+    "deliveryFee": 120,
+    "district": "Jamalpur"
+  },
+  {
+    "id": "6 ",
+    "deliveryFee": 120,
+    "district": "Kishoreganj"
+  },
+  {
+    "id": "7 ",
+    "deliveryFee": 120,
+    "district": "Madaripur"
+  },
+  {
+    "id": "8 ",
+    "deliveryFee": 120,
+    "district": "Manikganj"
+  },
+  {
+    "id": "9 ",
+    "deliveryFee": 120,
+    "district": "Munshiganj"
+  },
+  {
+    "id": "10 ",
+    "deliveryFee": 120,
+    "district": "Mymensingh"
+  },
+  {
+    "id": "11 ",
+    "deliveryFee": 120,
+    "district": "Narayanganj"
+  },
+  {
+    "id": "12 ",
+    "deliveryFee": 120,
+    "district": "Narsingdi"
+  },
+  {
+    "id": "13 ",
+    "deliveryFee": 120,
+    "district": "Netrokona"
+  },
+  {
+    "id": "14 ",
+    "deliveryFee": 120,
+    "district": "Rajbari"
+  },
+  {
+    "id": "15 ",
+    "deliveryFee": 120,
+    "district": "Shariatpur"
+  },
+  {
+    "id": "16 ",
+    "deliveryFee": 120,
+    "district": "Sherpur"
+  },
+  {
+    "id": "17 ",
+    "deliveryFee": 120,
+    "district": "Tangail"
+  },
+  {
+    "id": "18 ",
+    "deliveryFee": 120,
+    "district": "Bogura"
+  },
+  {
+    "id": "19 ",
+    "deliveryFee": 120,
+    "district": "Joypurhat"
+  },
+  {
+    "id": "20 ",
+    "deliveryFee": 120,
+    "district": "Naogaon"
+  },
+  {
+    "id": "21 ",
+    "deliveryFee": 120,
+    "district": "Natore"
+  },
+  {
+    "id": "22 ",
+    "deliveryFee": 120,
+    "district": "Nawabganj"
+  },
+  {
+    "id": "23 ",
+    "deliveryFee": 120,
+    "district": "Pabna"
+  },
+  {
+    "id": "24 ",
+    "deliveryFee": 120,
+    "district": "Rajshahi"
+  },
+  {
+    "id": "25 ",
+    "deliveryFee": 120,
+    "district": "Sirajgonj"
+  },
+  {
+    "id": "26 ",
+    "deliveryFee": 120,
+    "district": "Dinajpur"
+  },
+  {
+    "id": "27 ",
+    "deliveryFee": 120,
+    "district": "Gaibandha"
+  },
+  {
+    "id": "28 ",
+    "deliveryFee": 120,
+    "district": "Kurigram"
+  },
+  {
+    "id": "29 ",
+    "deliveryFee": 120,
+    "district": "Lalmonirhat"
+  },
+  {
+    "id": "30 ",
+    "deliveryFee": 120,
+    "district": "Nilphamari"
+  },
+  {
+    "id": "31 ",
+    "deliveryFee": 120,
+    "district": "Panchagarh"
+  },
+  {
+    "id": "32 ",
+    "deliveryFee": 120,
+    "district": "Rangpur"
+  },
+  {
+    "id": "33 ",
+    "deliveryFee": 120,
+    "district": "Thakurgaon"
+  },
+  {
+    "id": "34 ",
+    "deliveryFee": 120,
+    "district": "Barguna"
+  },
+  {
+    "id": "35 ",
+    "deliveryFee": 120,
+    "district": "Barishal"
+  },
+  {
+    "id": "36 ",
+    "deliveryFee": 120,
+    "district": "Bhola"
+  },
+  {
+    "id": "37 ",
+    "deliveryFee": 120,
+    "district": "Jhalokati"
+  },
+  {
+    "id": "38 ",
+    "deliveryFee": 120,
+    "district": "Patuakhali"
+  },
+  {
+    "id": "39 ",
+    "deliveryFee": 120,
+    "district": "Pirojpur"
+  },
+  {
+    "id": "40 ",
+    "deliveryFee": 120,
+    "district": "Bandarban"
+  },
+  {
+    "id": "41 ",
+    "deliveryFee": 120,
+    "district": "Brahmanbaria"
+  },
+  {
+    "id": "42 ",
+    "deliveryFee": 120,
+    "district": "Chandpur"
+  },
+  {
+    "id": "43 ",
+    "deliveryFee": 120,
+    "district": "Chattogram"
+  },
+  {
+    "id": "44 ",
+    "deliveryFee": 120,
+    "district": "Cumilla"
+  },
+  {
+    "id": "45 ",
+    "deliveryFee": 120,
+    "district": "Cox's Bazar"
+  },
+  {
+    "id": "46 ",
+    "deliveryFee": 120,
+    "district": "Feni"
+  },
+  {
+    "id": "47 ",
+    "deliveryFee": 120,
+    "district": "Khagrachari"
+  },
+  {
+    "id": "48 ",
+    "deliveryFee": 120,
+    "district": "Lakshmipur"
+  },
+  {
+    "id": "49 ",
+    "deliveryFee": 120,
+    "district": "Noakhali"
+  },
+  {
+    "id": "50 ",
+    "deliveryFee": 120,
+    "district": "Rangamati"
+  },
+  {
+    "id": "51 ",
+    "deliveryFee": 120,
+    "district": "Habiganj"
+  },
+  {
+    "id": "52 ",
+    "deliveryFee": 120,
+    "division_id": "7"
+  },
+  {
+    "id": "53 ",
+    "deliveryFee": 120,
+    "district": "Sunamganj"
+  },
+  {
+    "id": "54 ",
+    "deliveryFee": 120,
+    "district": "Sylhet"
+  },
+  {
+    "id": "55 ",
+    "deliveryFee": 120,
+    "district": "Bagerhat"
+  },
+  {
+    "id": "56 ",
+    "deliveryFee": 120,
+    "district": "Chuadanga"
+  },
+  {
+    "id": "57 ",
+    "deliveryFee": 120,
+    "district": "Jashore"
+  },
+  {
+    "id": "59 ",
+    "deliveryFee": 120,
+    "district": "Khulna"
+  },
+  {
+    "id": "60 ",
+    "deliveryFee": 120,
+    "district": "Kushtia"
+  },
+  {
+    "id": "61 ",
+    "deliveryFee": 120,
+    "district": "Magura"
+  },
+  {
+    "id": "62 ",
+    "deliveryFee": 120,
+    "district": "Meherpur"
+  },
+  {
+    "id": "63 ",
+    "deliveryFee": 120,
+    "district": "Narail"
+  },
+  {
+    "id": "64 ",
+    "deliveryFee": 120,
+    "district": "Satkhira"
+  }
+]

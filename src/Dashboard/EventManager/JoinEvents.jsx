@@ -71,7 +71,7 @@ const JoinEvents = () => {
               {new Date(event?.endDate).toLocaleDateString()}
             </p>
             <p>
-              <span className="font-medium mb-2">Price:</span> BDT{""}
+              <span className="font-medium mb-2">Price:</span> ৳{""}
               {event?.price}
             </p>
             <p>

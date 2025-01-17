@@ -61,7 +61,7 @@ const MyDocument = ({
 
       <View style={styles.totalSection}>
         <Text>
-          Total Order Cost:{" "}
+          Total Order Cost: ৳
           {users
             ?.reduce(
               (total, user) =>
@@ -72,10 +72,9 @@ const MyDocument = ({
               0
             )
             .toFixed(2)}{" "}
-          BDT
         </Text>
         <Text>
-          Total Profit:{" "}
+          Total Profit: ৳
           {users
             ?.reduce(
               (total, user) =>
@@ -86,11 +85,10 @@ const MyDocument = ({
               0
             )
             .toFixed(2)}{" "}
-          BDT
         </Text>
 
         <Text>
-          Total Vendor Income:{" "}
+          Total Vendor Income: ৳
           {users
             ?.reduce(
               (total, user) =>
@@ -102,7 +100,6 @@ const MyDocument = ({
               0
             )
             .toFixed(2)}{" "}
-          BDT
         </Text>
       </View>
       {users?.map((user, userIndex) => {
@@ -118,15 +115,15 @@ const MyDocument = ({
             </Text>
             <View style={styles.row}>
               <Text>Total Order Cost: </Text>
-              <Text>{totalOrderCost.toFixed(2)} BDT</Text>
+              <Text>{totalOrderCost.toFixed(2)} ৳</Text>
             </View>
             <View style={styles.row}>
               <Text>Total Profit: </Text>
-              <Text>{totalProfit.toFixed(2)} BDT</Text>
+              <Text> ৳ {totalProfit.toFixed(2)}</Text>
             </View>
             <View style={styles.row}>
               <Text>Vendor Payment: </Text>
-              <Text>{vendorPayment.toFixed(2)} BDT</Text>
+              <Text>৳ {vendorPayment.toFixed(2)} </Text>
             </View>
             <View style={styles.row}>
               <Text>Total Orders: </Text>
@@ -241,15 +238,15 @@ const ReceivablePayment = () => {
       <div className="flex justify-center gap-4 mt-4">
         <div className="bg-blue-500 w-52 py-6 text-white text-center shadow-lg rounded-md">
           <h1 className="font-bold">Total Profit :</h1>
-          <h2>{totalProfit.toFixed(2)} BDT</h2>
+          <h2>৳ {totalProfit.toFixed(2)} </h2>
         </div>
         <div className="bg-yellow-500 w-52 py-6 text-white text-center shadow-lg rounded-md">
           <h1 className="font-bold">Total Order Cost :</h1>
-          <h2>{totalOrderCost.toFixed(2)} BDT</h2>
+          <h2>৳ {totalOrderCost.toFixed(2)} </h2>
         </div>
         <div className="bg-green-500 w-52 py-6 text-white text-center shadow-lg rounded-md">
           <h1 className="font-bold">Total Vendor Income :</h1>
-          <h2>{totalVendorIncome.toFixed(2)} BDT</h2>
+          <h2>৳ {totalVendorIncome.toFixed(2)} </h2>
         </div>
       </div>
       <div className="flex justify-end my-3">
@@ -316,13 +313,13 @@ const ReceivablePayment = () => {
                     {user?.name}
                   </td>
                   <td className="text-center text-dark font-medium text-secondary py-5 px-2 bg-transparent border-b border-r border-gray-300">
-                    {totalOrderCost?.toFixed(2)} BDT
+                    ৳ {totalOrderCost?.toFixed(2)}
                   </td>
                   <td className="text-center text-dark font-medium text-secondary py-5 px-2 bg-transparent border-b border-r border-gray-300">
-                    {totalProfit?.toFixed(2)} BDT
+                    ৳ {totalProfit?.toFixed(2)}
                   </td>
                   <td className="text-center text-dark font-medium text-secondary py-5 px-2 bg-transparent border-b border-r border-gray-300">
-                    {vendorPayment?.toFixed(2)} BDT
+                    ৳ {vendorPayment?.toFixed(2)}
                   </td>
                   <td className="text-center text-dark font-medium text-secondary py-5 px-2 bg-transparent border-b border-r border-gray-300">
                     {activeOrders?.length}

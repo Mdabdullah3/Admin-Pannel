@@ -115,9 +115,7 @@ const Admin = () => {
               </span> */}
             </h1>
             <h2 className="text-md text-gray-500">Total Earning</h2>
-            <div className="-mt-10 w-80 lg:w-auto">
-              <PieChart />
-            </div>
+            <div className="-mt-10 w-80 lg:w-auto">{/* <PieChart /> */}</div>
           </div>
           <div>
             <div className="mt-4 shadow-lg pl-2 h-64">
@@ -125,14 +123,11 @@ const Admin = () => {
                 <FaBangladeshiTakaSign />{" "}
                 <span className="text-3xl text-black mr-2">{monthlySale}</span>
                 <span className="flex items-center bg-green-200 text-sm rounded-lg px-2 py-1 text-green-600">
-                  <AiOutlineArrowUp /> <span>+20%</span>
+                  <AiOutlineArrowUp />
                 </span>
               </h1>
               <h2 className="text-md text-gray-500">Order This Month</h2>
               <div className="mt-24">
-                <h1 className="font-bold flex justify-between">
-                  1080 to Goal <span className="text-green-500 pr-4">62%</span>
-                </h1>
                 <progress
                   className="progress progress-green-500 w-56"
                   value="70"
@@ -154,9 +149,7 @@ const Admin = () => {
               </span> */}
             </h1>
             <h2 className="text-md text-gray-500">Average Daily Sale</h2>
-            <div className="mt-6 w-72 lg:w-auto">
-              <BarChart />
-            </div>
+            <div className="mt-6 w-72 lg:w-auto">{/* <BarChart /> */}</div>
           </div>
           <div className="mt-4 shadow-lg pl-2 h-64 rounded-xl">
             <h1 className="font-bold pt-3">
@@ -205,9 +198,7 @@ const Admin = () => {
             </h1>
             <h1>Another $4232,992 to Goal</h1>
           </div>
-          <div className="">
-            <AreaLineChart />
-          </div>
+          <div className="">{/* <AreaLineChart /> */}</div>
         </div>
       </div>
       <section className="my-10">

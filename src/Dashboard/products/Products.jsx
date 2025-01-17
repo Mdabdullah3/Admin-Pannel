@@ -95,7 +95,7 @@ const ProductAdminPanel = () => {
                       </td>
                       <td className="px-4 py-2">{product?.status}</td>
                       <td className="px-4 py-2">
-                        BDT
+                        ৳
                         {product?.productVariants
                           ? product?.productVariants[0]?.price
                           : 0}

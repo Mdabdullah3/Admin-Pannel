@@ -103,7 +103,7 @@ const AllOrder = () => {
                     {item?.paymentType}
                   </td>
                   <td className="text-center text-dark font-medium py-5">
-                    {item?.price}
+                    ৳ {item?.price}
                   </td>
                   <td className="text-center text-dark font-medium py-5 capitalize">
                     <select

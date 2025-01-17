@@ -74,7 +74,6 @@ const Products = ({ id, updateProduct }) => {
     setPage(newPage);
   };
 
-
   return (
     <section className="py-5">
       <InputSearch
@@ -126,7 +125,7 @@ const Products = ({ id, updateProduct }) => {
                       {item?.productVariants?.[0]?.quantity || 0}
                     </td>
                     <td className="text-center">
-                      {item?.productVariants?.[0]?.price || 0} BDT
+                      {item?.productVariants?.[0]?.price || 0} ৳
                     </td>
                     <td className="text-center">
                       <select

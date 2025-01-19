@@ -108,8 +108,7 @@ const Admin = () => {
         <div>
           <div className="mt-4 shadow-lg pl-2 h-64">
             <h1 className="text-gray-500 text-lg flex items-center font-bold pt-3">
-              <FaBangladeshiTakaSign />{" "}
-              <span className="text-3xl text-black mr-2">{totalEarning}</span>
+              ৳<span className="text-3xl text-black mr-2">{totalEarning}</span>
               {/* <span className="flex items-center bg-green-200 text-sm rounded-lg px-2 py-1 text-green-600">
                 <AiOutlineArrowUp /> <span>+20%</span>
               </span> */}
@@ -120,8 +119,7 @@ const Admin = () => {
           <div>
             <div className="mt-4 shadow-lg pl-2 h-64">
               <h1 className="text-gray-500 text-lg flex items-center font-bold pt-3">
-                <FaBangladeshiTakaSign />{" "}
-                <span className="text-3xl text-black mr-2">{monthlySale}</span>
+                ৳<span className="text-3xl text-black mr-2">{monthlySale}</span>
                 <span className="flex items-center bg-green-200 text-sm rounded-lg px-2 py-1 text-green-600">
                   <AiOutlineArrowUp />
                 </span>
@@ -140,7 +138,7 @@ const Admin = () => {
         <div>
           <div className="mt-4 shadow-lg pl-2 h-64 rounded-xl">
             <h1 className="text-gray-500 text-lg flex items-center font-bold pt-3">
-              <FaBangladeshiTakaSign />{" "}
+              ৳
               <span className="text-3xl text-black mr-2">
                 {todaySale.toFixed(2)}
               </span>
@@ -188,7 +186,7 @@ const Admin = () => {
           <p>User of all chanel</p>
           <div className="mt-16">
             <h1 className="text-gray-500 text-lg flex items-center font-bold pt-3">
-              <FaBangladeshiTakaSign />{" "}
+              ৳
               <span className="text-3xl text-black mr-2">
                 {monthlySale.toFixed(2)}
               </span>
@@ -196,7 +194,7 @@ const Admin = () => {
                 <AiOutlineArrowUp /> <span>+20%</span>
               </span> */}
             </h1>
-            <h1>Another $4232,992 to Goal</h1>
+            <h1>Another ৳4232,992 to Goal</h1>
           </div>
           <div className="">{/* <AreaLineChart /> */}</div>
         </div>

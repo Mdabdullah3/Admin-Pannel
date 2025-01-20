@@ -146,7 +146,7 @@ const Admin = () => {
                 <AiOutlineArrowUp /> <span>+20%</span>
               </span> */}
             </h1>
-            <h2 className="text-md text-gray-500">Average Daily Sale</h2>
+            <h2 className="text-md text-gray-500">Daily Sale</h2>
             <div className="mt-6 w-72 lg:w-auto">{/* <BarChart /> */}</div>
           </div>
           <div className="mt-4 shadow-lg pl-2 h-64 rounded-xl">

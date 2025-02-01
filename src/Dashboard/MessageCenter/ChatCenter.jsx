@@ -14,8 +14,8 @@ const ChatCenterAdminView = () => {
 
   // Filter chat data by unique user
   chats?.forEach((chat) => {
-    const userId = chat.user._id;
-    const userRole = chat.user.role;
+    const userId = chat?.user?._id;
+    const userRole = chat?.user?.role;
 
     if (!seenUsers.has(userId) && userRole !== "admin") {
       seenUsers.add(userId);

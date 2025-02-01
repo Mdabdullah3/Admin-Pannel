@@ -95,9 +95,9 @@ const Admin = () => {
     return <div>Loading...</div>;
   }
 
-  if (!user || user?.role !== "admin") {
-    return <Navigate to="/" replace />;
-  }
+  // if (!user || user?.role !== "admin") {
+  //   return <Navigate to="/" replace />;
+  // }
 
   const handleClick = () => {
     navigate("/admin/order-review");

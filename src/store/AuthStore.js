@@ -166,7 +166,8 @@ const useUserStore = create((set, get) => ({
         set({ loading: true, error: null });
         try {
             const response = await axios.post(`${API_URL}/auth/login`, { email, password }, { withCredentials: true });
-            if (response?.data?.data?.role === "admin") {
+            // ?.data?.role === "admin"
+            if (response?.data) {
                 await get().fetchUser();
                 toast.success('Login successful');
                 router('/admin');
